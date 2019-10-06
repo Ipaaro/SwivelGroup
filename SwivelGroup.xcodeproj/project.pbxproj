@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E5A1EB359E4B25B2D71B002 /* Pods_SwivelGroupTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35595D5CEB64C5E204AA216F /* Pods_SwivelGroupTests.framework */; };
 		BB517F2A23477EA5001A9824 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F2923477EA5001A9824 /* AppDelegate.swift */; };
 		BB517F2C23477EA5001A9824 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F2B23477EA5001A9824 /* ViewController.swift */; };
 		BB517F2F23477EA5001A9824 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB517F2D23477EA5001A9824 /* Main.storyboard */; };
@@ -15,6 +16,16 @@
 		BB517F3723477EA6001A9824 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB517F3523477EA6001A9824 /* LaunchScreen.storyboard */; };
 		BB517F4223477EA6001A9824 /* SwivelGroupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F4123477EA6001A9824 /* SwivelGroupTests.swift */; };
 		BB517F4D23477EA6001A9824 /* SwivelGroupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F4C23477EA6001A9824 /* SwivelGroupUITests.swift */; };
+		BB517F5C2347A814001A9824 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F5B2347A814001A9824 /* Constant.swift */; };
+		BB517F5E2347A852001A9824 /* WebHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F5D2347A852001A9824 /* WebHelper.swift */; };
+		BB517F602347A86B001A9824 /* ServiceRequestorDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F5F2347A86B001A9824 /* ServiceRequestorDelegate.swift */; };
+		BB517F622347A88A001A9824 /* WebCommunicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F612347A88A001A9824 /* WebCommunicator.swift */; };
+		BB517F642347A8D9001A9824 /* RealmDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F632347A8D9001A9824 /* RealmDataBase.swift */; };
+		BB517F662347AB65001A9824 /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F652347AB65001A9824 /* DetailNewsViewController.swift */; };
+		BB517F692347AE73001A9824 /* DetailWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F682347AE73001A9824 /* DetailWebViewController.swift */; };
+		BB517F6B2348D2E9001A9824 /* DatabaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB517F6A2348D2E9001A9824 /* DatabaseFunctions.swift */; };
+		C863FCCD9596215A06BFF1BA /* Pods_SwivelGroupUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A44CF8E58E89203E6C00FC38 /* Pods_SwivelGroupUITests.framework */; };
+		DBDE2B1A7ACB90C4562F3C4C /* Pods_SwivelGroup.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E799DB57303219B261620DAA /* Pods_SwivelGroup.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05EDD2AE20812C96F28EE3A6 /* Pods-SwivelGroupUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroupUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwivelGroupUITests/Pods-SwivelGroupUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		28E8989E427A86A91EB43756 /* Pods-SwivelGroup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroup.debug.xcconfig"; path = "Target Support Files/Pods-SwivelGroup/Pods-SwivelGroup.debug.xcconfig"; sourceTree = "<group>"; };
+		35595D5CEB64C5E204AA216F /* Pods_SwivelGroupTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwivelGroupTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EE19910ED6C185053D6A791 /* Pods-SwivelGroupTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroupTests.release.xcconfig"; path = "Target Support Files/Pods-SwivelGroupTests/Pods-SwivelGroupTests.release.xcconfig"; sourceTree = "<group>"; };
+		8AFCF525C7CDF70F03A0740F /* Pods-SwivelGroupUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroupUITests.release.xcconfig"; path = "Target Support Files/Pods-SwivelGroupUITests/Pods-SwivelGroupUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A1B8D93D9D30BFA62B1B0987 /* Pods-SwivelGroup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroup.release.xcconfig"; path = "Target Support Files/Pods-SwivelGroup/Pods-SwivelGroup.release.xcconfig"; sourceTree = "<group>"; };
+		A44CF8E58E89203E6C00FC38 /* Pods_SwivelGroupUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwivelGroupUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB517F2623477EA5001A9824 /* SwivelGroup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwivelGroup.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB517F2923477EA5001A9824 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB517F2B23477EA5001A9824 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,16 @@
 		BB517F4823477EA6001A9824 /* SwivelGroupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwivelGroupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB517F4C23477EA6001A9824 /* SwivelGroupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwivelGroupUITests.swift; sourceTree = "<group>"; };
 		BB517F4E23477EA6001A9824 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB517F5B2347A814001A9824 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BB517F5D2347A852001A9824 /* WebHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebHelper.swift; sourceTree = "<group>"; };
+		BB517F5F2347A86B001A9824 /* ServiceRequestorDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceRequestorDelegate.swift; sourceTree = "<group>"; };
+		BB517F612347A88A001A9824 /* WebCommunicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebCommunicator.swift; sourceTree = "<group>"; };
+		BB517F632347A8D9001A9824 /* RealmDataBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmDataBase.swift; sourceTree = "<group>"; };
+		BB517F652347AB65001A9824 /* DetailNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
+		BB517F682347AE73001A9824 /* DetailWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWebViewController.swift; sourceTree = "<group>"; };
+		BB517F6A2348D2E9001A9824 /* DatabaseFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFunctions.swift; sourceTree = "<group>"; };
+		CEAD8E51632D3F3446654E52 /* Pods-SwivelGroupTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwivelGroupTests.debug.xcconfig"; path = "Target Support Files/Pods-SwivelGroupTests/Pods-SwivelGroupTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E799DB57303219B261620DAA /* Pods_SwivelGroup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwivelGroup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBDE2B1A7ACB90C4562F3C4C /* Pods_SwivelGroup.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E5A1EB359E4B25B2D71B002 /* Pods_SwivelGroupTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C863FCCD9596215A06BFF1BA /* Pods_SwivelGroupUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F1D0D1F9D191C8B9C01D35E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28E8989E427A86A91EB43756 /* Pods-SwivelGroup.debug.xcconfig */,
+				A1B8D93D9D30BFA62B1B0987 /* Pods-SwivelGroup.release.xcconfig */,
+				CEAD8E51632D3F3446654E52 /* Pods-SwivelGroupTests.debug.xcconfig */,
+				7EE19910ED6C185053D6A791 /* Pods-SwivelGroupTests.release.xcconfig */,
+				05EDD2AE20812C96F28EE3A6 /* Pods-SwivelGroupUITests.debug.xcconfig */,
+				8AFCF525C7CDF70F03A0740F /* Pods-SwivelGroupUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6889CBFEDDD9A51B540125BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E799DB57303219B261620DAA /* Pods_SwivelGroup.framework */,
+				35595D5CEB64C5E204AA216F /* Pods_SwivelGroupTests.framework */,
+				A44CF8E58E89203E6C00FC38 /* Pods_SwivelGroupUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BB517F1D23477EA5001A9824 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +137,8 @@
 				BB517F4023477EA6001A9824 /* SwivelGroupTests */,
 				BB517F4B23477EA6001A9824 /* SwivelGroupUITests */,
 				BB517F2723477EA5001A9824 /* Products */,
+				4F1D0D1F9D191C8B9C01D35E /* Pods */,
+				6889CBFEDDD9A51B540125BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +155,9 @@
 		BB517F2823477EA5001A9824 /* SwivelGroup */ = {
 			isa = PBXGroup;
 			children = (
+				BB517F672347AB6F001A9824 /* ViewControllers */,
+				BB517F5A2347A7C9001A9824 /* HelpClasses */,
 				BB517F2923477EA5001A9824 /* AppDelegate.swift */,
-				BB517F2B23477EA5001A9824 /* ViewController.swift */,
 				BB517F2D23477EA5001A9824 /* Main.storyboard */,
 				BB517F3323477EA6001A9824 /* Assets.xcassets */,
 				BB517F3523477EA6001A9824 /* LaunchScreen.storyboard */,
@@ -128,6 +185,29 @@
 			path = SwivelGroupUITests;
 			sourceTree = "<group>";
 		};
+		BB517F5A2347A7C9001A9824 /* HelpClasses */ = {
+			isa = PBXGroup;
+			children = (
+				BB517F5B2347A814001A9824 /* Constant.swift */,
+				BB517F5D2347A852001A9824 /* WebHelper.swift */,
+				BB517F5F2347A86B001A9824 /* ServiceRequestorDelegate.swift */,
+				BB517F612347A88A001A9824 /* WebCommunicator.swift */,
+				BB517F632347A8D9001A9824 /* RealmDataBase.swift */,
+				BB517F6A2348D2E9001A9824 /* DatabaseFunctions.swift */,
+			);
+			path = HelpClasses;
+			sourceTree = "<group>";
+		};
+		BB517F672347AB6F001A9824 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB517F652347AB65001A9824 /* DetailNewsViewController.swift */,
+				BB517F2B23477EA5001A9824 /* ViewController.swift */,
+				BB517F682347AE73001A9824 /* DetailWebViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB517F5123477EA6001A9824 /* Build configuration list for PBXNativeTarget "SwivelGroup" */;
 			buildPhases = (
+				649DBAECCBB9138A9EE15D74 /* [CP] Check Pods Manifest.lock */,
 				BB517F2223477EA5001A9824 /* Sources */,
 				BB517F2323477EA5001A9824 /* Frameworks */,
 				BB517F2423477EA5001A9824 /* Resources */,
+				C601F95CCA38949484A45B1F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB517F5423477EA6001A9824 /* Build configuration list for PBXNativeTarget "SwivelGroupTests" */;
 			buildPhases = (
+				9F7512D7962A07F386AA80A4 /* [CP] Check Pods Manifest.lock */,
 				BB517F3923477EA6001A9824 /* Sources */,
 				BB517F3A23477EA6001A9824 /* Frameworks */,
 				BB517F3B23477EA6001A9824 /* Resources */,
@@ -170,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB517F5723477EA6001A9824 /* Build configuration list for PBXNativeTarget "SwivelGroupUITests" */;
 			buildPhases = (
+				C508E099CD308D0D2286801D /* [CP] Check Pods Manifest.lock */,
 				BB517F4423477EA6001A9824 /* Sources */,
 				BB517F4523477EA6001A9824 /* Frameworks */,
 				BB517F4623477EA6001A9824 /* Resources */,
@@ -254,14 +338,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		649DBAECCBB9138A9EE15D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwivelGroup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F7512D7962A07F386AA80A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwivelGroupTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C508E099CD308D0D2286801D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwivelGroupUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C601F95CCA38949484A45B1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwivelGroup/Pods-SwivelGroup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwivelGroup/Pods-SwivelGroup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwivelGroup/Pods-SwivelGroup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BB517F2223477EA5001A9824 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB517F622347A88A001A9824 /* WebCommunicator.swift in Sources */,
+				BB517F662347AB65001A9824 /* DetailNewsViewController.swift in Sources */,
+				BB517F6B2348D2E9001A9824 /* DatabaseFunctions.swift in Sources */,
 				BB517F3223477EA5001A9824 /* SwivelGroup.xcdatamodeld in Sources */,
 				BB517F2C23477EA5001A9824 /* ViewController.swift in Sources */,
+				BB517F692347AE73001A9824 /* DetailWebViewController.swift in Sources */,
 				BB517F2A23477EA5001A9824 /* AppDelegate.swift in Sources */,
+				BB517F642347A8D9001A9824 /* RealmDataBase.swift in Sources */,
+				BB517F602347A86B001A9824 /* ServiceRequestorDelegate.swift in Sources */,
+				BB517F5E2347A852001A9824 /* WebHelper.swift in Sources */,
+				BB517F5C2347A814001A9824 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +612,7 @@
 		};
 		BB517F5223477EA6001A9824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28E8989E427A86A91EB43756 /* Pods-SwivelGroup.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +630,7 @@
 		};
 		BB517F5323477EA6001A9824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1B8D93D9D30BFA62B1B0987 /* Pods-SwivelGroup.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +648,7 @@
 		};
 		BB517F5523477EA6001A9824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAD8E51632D3F3446654E52 /* Pods-SwivelGroupTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -488,6 +669,7 @@
 		};
 		BB517F5623477EA6001A9824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EE19910ED6C185053D6A791 /* Pods-SwivelGroupTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +690,7 @@
 		};
 		BB517F5823477EA6001A9824 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05EDD2AE20812C96F28EE3A6 /* Pods-SwivelGroupUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +710,7 @@
 		};
 		BB517F5923477EA6001A9824 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AFCF525C7CDF70F03A0740F /* Pods-SwivelGroupUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
