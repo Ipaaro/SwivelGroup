@@ -95,13 +95,13 @@
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImgLoading" translatesAutoresizingMaskIntoConstraints="NO" id="WVj-N9-GLA">
-                                                            <rect key="frame" x="10" y="10" width="260" height="150"/>
+                                                            <rect key="frame" x="10" y="10" width="315" height="150"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="150" id="5va-sr-8jK"/>
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLabelLa" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kuG-am-4C0">
-                                                            <rect key="frame" x="10" y="176" width="260" height="97.666666666666686"/>
+                                                            <rect key="frame" x="10" y="176" width="315" height="97.666666666666686"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -333,8 +333,8 @@
                                     <connections>
                                         <action selector="btnAppleClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSG-At-Tqj"/>
                                         <outletCollection property="otherButtons" destination="KEp-GH-F6m" id="EQr-r5-PWl"/>
-                                        <outletCollection property="otherButtons" destination="Xbq-54-oqi" id="fTn-mn-o8N"/>
                                         <outletCollection property="otherButtons" destination="xpp-9l-8rl" id="aem-jY-SPv"/>
+                                        <outletCollection property="otherButtons" destination="Xbq-54-oqi" id="hxx-kW-0Vk"/>
                                     </connections>
                                 </button>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horiz-line" translatesAutoresizingMaskIntoConstraints="NO" id="Tih-Dp-WgM">
@@ -363,6 +363,9 @@
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="btnEarthquakeClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cXm-gT-vAE"/>
+                                        <outletCollection property="otherButtons" destination="KEp-GH-F6m" id="7EE-g8-PUV"/>
+                                        <outletCollection property="otherButtons" destination="EeB-Gj-Si7" id="Yd4-KI-bvJ"/>
+                                        <outletCollection property="otherButtons" destination="xpp-9l-8rl" id="7dv-h7-67v"/>
                                     </connections>
                                 </button>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horiz-line" translatesAutoresizingMaskIntoConstraints="NO" id="1Oa-4c-ZRn">
@@ -391,7 +394,9 @@
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="btnBitCoinClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OLz-3T-PM4"/>
-                                        <outletCollection property="otherButtons" destination="EeB-Gj-Si7" id="syV-6f-64U"/>
+                                        <outletCollection property="otherButtons" destination="EeB-Gj-Si7" id="hKu-Xd-uPg"/>
+                                        <outletCollection property="otherButtons" destination="xpp-9l-8rl" id="OH0-EM-cJN"/>
+                                        <outletCollection property="otherButtons" destination="Xbq-54-oqi" id="ziD-90-Gf5"/>
                                     </connections>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xpp-9l-8rl" customClass="DLRadioButton">
@@ -414,6 +419,9 @@
                                     </userDefinedRuntimeAttributes>
                                     <connections>
                                         <action selector="btnAnimalClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lgy-px-vHs"/>
+                                        <outletCollection property="otherButtons" destination="Xbq-54-oqi" id="9Lj-f4-3FF"/>
+                                        <outletCollection property="otherButtons" destination="EeB-Gj-Si7" id="uBq-qa-fET"/>
+                                        <outletCollection property="otherButtons" destination="KEp-GH-F6m" id="sYP-OC-5E4"/>
                                     </connections>
                                 </button>
                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Horiz-line" translatesAutoresizingMaskIntoConstraints="NO" id="5ma-vb-tHF">

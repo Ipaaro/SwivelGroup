@@ -20,14 +20,12 @@ class WebCommunicator: NSObject {
         let parameters = WebHelper.parametersForService(serviceName: serviceType, dataArray: dataArray)
         let url = ServerURL.baseUrl.rawValue  + serviceType
         
-        
         Alamofire.request(url, method: .get, parameters: parameters).responseJSON { (response) in
             
             if let error = response.result.error {
                 if error._code == NSURLErrorTimedOut {
                     self.handleTimeOut(service: serviceType )
                 }
-                
             }
             
             if let value = response.result.value {
@@ -40,7 +38,6 @@ class WebCommunicator: NSObject {
                 self.handleError(service: serviceType )
             }
         }
-        
     }
     
     // WEBSERVICES SUCCESS RESPONSE
@@ -61,6 +58,4 @@ class WebCommunicator: NSObject {
         delegate?.handleResponseData(status: "timeOut", result:JSON.null, serviceType:service as String)
         
     }
-    
-    
 }

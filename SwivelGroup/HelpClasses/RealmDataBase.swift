@@ -16,7 +16,4 @@ class userDetail: Object {
     @objc dynamic var password = ""
     @objc dynamic var email = ""
     @objc dynamic var mobileNo = ""
-    
 }
-
-

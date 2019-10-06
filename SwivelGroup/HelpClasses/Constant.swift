@@ -73,8 +73,6 @@ struct UserObject {
     var artWorkURL : String?
     var price : String?
     var mobileNo : String?
-    
-   
 }
 
 //Message List
@@ -166,7 +164,4 @@ func prepareTextFields(textField: TextField ){
     textField.placeholderNormalColor = textColorPlaceholder
     textField.dividerActiveColor = textColor
     textField.dividerNormalColor = textColor
-    
-    
 }
-

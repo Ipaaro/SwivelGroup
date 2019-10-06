@@ -47,7 +47,6 @@ class DetailWebViewController:  UIViewController,WKNavigationDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
     /*
     // MARK: - Navigation
@@ -58,5 +57,4 @@ class DetailWebViewController:  UIViewController,WKNavigationDelegate {
         // Pass the selected object to the new view controller.
     }
     */
-
 }

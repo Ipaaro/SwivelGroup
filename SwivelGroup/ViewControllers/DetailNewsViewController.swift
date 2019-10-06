@@ -9,7 +9,6 @@
 import UIKit
 
 class DetailNewsViewController: UIViewController {
-
     
     @IBOutlet weak var imgNews: UIImageView!
     
@@ -41,27 +40,20 @@ class DetailNewsViewController: UIViewController {
         tvContent.sizeToFit()
         
         if selectedNews.imageUrl != ""{
-            
             if selectedNews.imageUrl == nil{
                 imgNews.image = #imageLiteral(resourceName: "ImgLoading")
-                
-                
             }else{
-                
                 let   url : URL = URL(string: selectedNews.imageUrl!.addingPercentEncoding(withAllowedCharacters: NSCharacterSet.urlQueryAllowed)!)!
-                
                 
                 imgNews.kf.indicatorType = .activity                
                 
                 imgNews.kf.setImage(with: url , completionHandler: {
                     (image, error, cacheType, imageUrl) in
-                    
                 })
             }
         }else{
             imgNews.image = #imageLiteral(resourceName: "ImgLoading")
         }
-        
     }
     
     // MARK: - Button Clicked Event
@@ -70,7 +62,6 @@ class DetailNewsViewController: UIViewController {
          self.performSegue(withIdentifier: "toDetailWebSegue", sender: nil)
     }
     
-    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -78,9 +69,6 @@ class DetailNewsViewController: UIViewController {
         if segue.identifier == "toDetailWebSegue" {
             let TargetVC = segue.destination as! DetailWebViewController
             TargetVC.selectedNews = self.selectedNews
-            
         }
     }
-    
-
 }

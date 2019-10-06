@@ -65,7 +65,6 @@ class ViewController: UIViewController, UITextFieldDelegate, ServiceRequestorDel
             selector: #selector(orientationChanged(notification:)),
             name: UIDevice.orientationDidChangeNotification,
             object: nil)
-
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -79,13 +78,11 @@ class ViewController: UIViewController, UITextFieldDelegate, ServiceRequestorDel
             removeViews()
             showFilterPopup()
         }
-        
     }
     
      // MARK: - View Setup Methods
     //View Setting Detail Method
     func viewSetup(){
-        
         prepareTextFields(textField: txtUserName)
         prepareTextFields(textField: txtMobile)
         prepareTextFields(textField: txtEmail)
@@ -338,7 +335,6 @@ class ViewController: UIViewController, UITextFieldDelegate, ServiceRequestorDel
                     
                         let source = news["source"]
                         self.newsListArray.append(NewsItem(author: news["author"].stringValue, title: news["title"].stringValue, description: news["description"].stringValue, url: news["url"].stringValue, imageUrl: news["urlToImage"].stringValue, publishDate: news["publishedAt"].stringValue, content: news["content"].stringValue, sourceId: source["id"].stringValue, sourceName: source["name"].stringValue))
-                        
                     }
                     loadDataToTable()
                 }
@@ -395,4 +391,3 @@ class ViewController: UIViewController, UITextFieldDelegate, ServiceRequestorDel
         return false
     }
 }
-
